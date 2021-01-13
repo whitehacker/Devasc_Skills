@@ -16,6 +16,6 @@ git commit -m 'Task 1 -- Github Skills Test'
 * Pushed all the changes to the repository
 ```
 git push
-``
-![Cloning Repository](https://github.com/whitehacker/Devasc_Skills/blob/main/sc1.jpg?raw=true)
-![Cloning Repository](https://github.com/whitehacker/Devasc_Skills/blob/main/sc2.jpg?raw=true)
+```
+![Cloning Repository](https://github.com/whitehacker/Devasc_Skills/blob/main/sc1.png?raw=true)
+![Cloning Repository](https://github.com/whitehacker/Devasc_Skills/blob/main/sc2.png?raw=true)
