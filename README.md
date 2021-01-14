@@ -34,7 +34,7 @@ git push
 ```
 * Added the following lines to the hosts file
 ```
-routers]
+[routers]
 CSR1kv_1 ansible_user=cisco ansible_password=cisco123! ansible_host=192.168.173.130
 CSR1kv_2 ansible_user=cisco ansible_password=cisco123! ansible_host=192.168.173.130
 ```
@@ -42,3 +42,9 @@ CSR1kv_2 ansible_user=cisco ansible_password=cisco123! ansible_host=192.168.173.
 ```
 > ansible-playbook IOS_COMMANDS_PB.yaml
 ```
+### Troubleshooting
+* It seems the host is not reachable as I didn't know the correct IP address, although I tried Google and the Webex conversation
+
+### Verification
+
+![Running Playbook](https://github.com/whitehacker/Devasc_Skills/blob/main/sc3.png?raw=true)
