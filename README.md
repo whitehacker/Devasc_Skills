@@ -48,3 +48,21 @@ CSR1kv_2 ansible_user=cisco ansible_password=cisco123! ansible_host=192.168.173.
 ### Verification
 
 ![Running Playbook](https://github.com/whitehacker/Devasc_Skills/blob/main/sc3.png?raw=true)
+
+## Task 3 -- Docker
+### Preparation
+* Installed Docker
+* Dowloaded the docker-ntp repo from Github
+
+### Implementation
+
+* Successful run the following commands
+
+ ![Running Playbook](https://github.com/whitehacker/Devasc_Skills/blob/main/sc4.png?raw=true)
+ ![Running Playbook](https://github.com/whitehacker/Devasc_Skills/blob/main/sc5.png?raw=true)
+ ![Running Playbook](https://github.com/whitehacker/Devasc_Skills/blob/main/sc6.png?raw=true)
+ ![Running Playbook](https://github.com/whitehacker/Devasc_Skills/blob/main/sc7.png?raw=true)
+ ![Running Playbook](https://github.com/whitehacker/Devasc_Skills/blob/main/sc8.png?raw=true)
+
+### Troubleshooting
+* I used Ubuntu to run docker as it doesn't work properly on Mac  
