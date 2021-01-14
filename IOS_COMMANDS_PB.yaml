@@ -1,0 +1,21 @@
+---
+- name: IOS_COMMANDS_PB
+  hosts: CSR1Kv
+  gather_facts: false
+  connection: local
+
+  tasks:
+   - name: run show version on remote devices
+     ios_command:
+       commands: show version
+
+   - name: run show version and check to see if output contains IOS
+     ios_command:
+       commands: show version
+       wait_for: result[0] contains IOS
+
+   - name: run multiple commands on remote nodes
+     ios_command:
+       commands:
+         - show version
+         - show interfaces
